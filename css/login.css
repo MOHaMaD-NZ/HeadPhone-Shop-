@@ -1,0 +1,84 @@
+header div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  margin: 10px 20px;
+  padding-top: 20px;
+}
+
+/* main */
+
+.login {
+  font-size: 1.6em;
+  background-color: #57606f;
+  padding: 30px;
+}
+
+.login .right {
+  font-size: 0.9em;
+  box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 25px 35px;
+  color: white;
+  margin: 20px 30px;
+}
+
+.login .right .form .account {
+  margin: 30px 0px;
+}
+
+.login .right .form .account label {
+  display: block;
+}
+
+.login .right .form .account input {
+  border: none;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid white;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+
+.login .right .dec a {
+  color: cornflowerblue;
+}
+
+.login .right .bottom .entry {
+  text-align: center;
+}
+
+.login .right .bottom .entry input {
+  border: none;
+  border-radius: 35px;
+  background-color: aqua;
+  padding: 10px 40px;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.login .right .bottom .icon {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.login .right .bottom .icon a {
+  color: white;
+  font-size: 1.9em;
+}
+.login .left {
+  display: flex;
+  height: 100%;
+}
+
+.login .left img {
+  width: 100%;
+}
